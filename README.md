@@ -1,4 +1,4 @@
-🚲 Stations de vélos en temps réel
+ # Stations de vélos en temps réel
 
 ![Capture d'écran 2024-12-09 20289](https://github.com/user-attachments/assets/b0a66d2b-49a9-4b28-859c-be16decfc118)
 
@@ -40,5 +40,10 @@ L'application est conçue pour être rapide, pratique, et adaptée à une gestio
     API : OpenCage Geocoder pour le géocodage des adresses
     Planification : APScheduler
 
-📊 Visuals
-Exemple de carte interactive
+📊 Visuels
+Exemples
+![Capture d'écran 2024-12-12 215135](https://github.com/user-attachments/assets/fbdfed13-a78f-447a-bbf2-aa10ab69af74)
+![Capture d'écran 2024-12-12 215228](https://github.com/user-attachments/assets/0fb173b1-60d5-40bf-a6b8-1f9abf29251f)
+![Capture d'écran 2024-12-12 215625](https://github.com/user-attachments/assets/96fa6b0f-19c4-4175-9909-9db591118456)
+
+
