@@ -44,7 +44,8 @@ L'application est conçue pour être rapide, pratique, et adaptée à une gestio
 📊 Visuels
 Exemples
 
-![Capture d'écran 2024-12-09 20289](https://github.com/user-attachments/assets/b0a66d2b-49a9-4b28-859c-be16decfc118)
 ![Capture d'écran 2024-12-12 215625](https://github.com/user-attachments/assets/96fa6b0f-19c4-4175-9909-9db591118456)
+![Capture d'écran 2024-12-09 20289](https://github.com/user-attachments/assets/b0a66d2b-49a9-4b28-859c-be16decfc118)
+
 
 
