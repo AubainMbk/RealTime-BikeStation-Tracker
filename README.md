@@ -7,7 +7,8 @@ Visualisez et suivez les stations de vélos en temps réel avec une interface in
 
 🌟 À propos
 
-BikeStationMap est une application web innovante qui permet aux utilisateurs :
+
+RealTime-BikeStation-Tracker est une application web innovante qui permet aux utilisateurs :
 
     🌍 D’afficher les stations de vélos disponibles à Paris, Lille et Toulouse.
     📍 De rechercher les stations proches d’une adresse saisie grâce à un système de géocodage.
