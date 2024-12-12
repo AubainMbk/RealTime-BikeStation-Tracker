@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stations de Vélos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9; /* Couleur de fond douce */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        label {
+            font-weight: bold;
+            margin: 10px 0 5px;
+            text-align: center;
+        }
+        select, input[type="text"], button {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #007BFF; /* Couleur bleu clair */
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+        }
+        button:hover {
+            background-color: #0056b3; /* Couleur bleu foncé */
+        }
+        hr {
+            margin: 20px 0;
+        }
+        .map-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .map-container h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenue sur l'application des stations de vélos</h1>
+        <form method="POST">
+            <label for="ville">Choisissez une ville :</label>
+            <select name="ville" id="ville">
+                {% for ville in villes %}
+                    <option value="{{ ville }}" {% if ville == selected_ville %}selected{% endif %}>{{ ville }}</option>
+                {% endfor %}
+            </select>
+            <label for="adresse">Entrez votre adresse :</label>
+            <input type="text" name="adresse" id="adresse" placeholder="Votre adresse ici" required>
+            <button type="submit">Afficher les stations</button>
+        </form>
+        <hr>
+        {% if map_html %}
+            <div class="map-container">
+                <h2>Carte des stations disponibles</h2>
+                {{ map_html|safe }}
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
