@@ -5,7 +5,7 @@
 
 Visualisez et suivez les stations de vélos en temps réel avec une interface intuitive et interactive.
 
-🌟 À propos
+# À propos
 
 
 RealTime-BikeStation-Tracker est une application web innovante qui permet aux utilisateurs :
@@ -16,7 +16,7 @@ RealTime-BikeStation-Tracker est une application web innovante qui permet aux ut
 
 L'application est conçue pour être rapide, pratique, et adaptée à une gestion de données en temps réel.
 
-📋 Fonctionnalités
+# Fonctionnalités
 
     Interface interactive : Une carte intuitive centrée sur l’utilisateur.
     Recherche par adresse : Conversion des adresses en coordonnées géographiques grâce à un géocodage précis.
@@ -24,7 +24,7 @@ L'application est conçue pour être rapide, pratique, et adaptée à une gestio
     Données en temps réel : Mise à jour automatique des stations toutes les deux minutes.
     Support multi-villes : Paris, Lille et Toulouse.
 
-📂 Structure du projet
+# Structure du projet
 
     /data : Contient la base de données SQLite pour stocker les informations des stations.
     /templates : Fichiers HTML pour l'interface utilisateur Flask.
@@ -32,7 +32,7 @@ L'application est conçue pour être rapide, pratique, et adaptée à une gestio
     app.py : Code principal Flask pour l'application web.
     collect_data.py : Script de collecte et de stockage des données en temps réel.
 
-🛠️ Technologies utilisées
+# Technologies utilisées
 
     Langage : Python
     Framework : Flask
@@ -41,7 +41,7 @@ L'application est conçue pour être rapide, pratique, et adaptée à une gestio
     API : OpenCage Geocoder pour le géocodage des adresses
     Planification : APScheduler
 
-📊 Visuels
+# Visuels
 Exemples
 
 ![Capture d'écran 2024-12-12 215625](https://github.com/user-attachments/assets/96fa6b0f-19c4-4175-9909-9db591118456)
